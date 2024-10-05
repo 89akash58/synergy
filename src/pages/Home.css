@@ -1,0 +1,57 @@
+tr:nth-child(even) {
+  background-color: #a7a7a7;
+}
+
+tr:nth-child(odd) {
+  background-color: #373838;
+}
+th {
+  padding: 10px;
+}
+td,
+tr {
+  padding: 5px;
+}
+.home {
+  margin-top: 100px;
+}
+.head {
+  margin-bottom: 50px;
+}
+.edit {
+  background-color: greenyellow;
+  color: white;
+  padding: 5px;
+  width: 100px;
+  border-radius: 10px;
+}
+.delete {
+  color: white;
+  background: red;
+  padding: 5px;
+  border-radius: 10px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+@media (max-width: 678px) {
+  .table {
+    padding: 0px;
+    font-size: 8px;
+  }
+  td,
+  tr {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 450px) {
+  .table {
+    padding: 0px;
+    font-size: 5px;
+  }
+  td,
+  tr {
+    padding: 0px;
+  }
+}
